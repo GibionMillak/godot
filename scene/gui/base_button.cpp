@@ -501,7 +501,7 @@ void BaseButton::_bind_methods() {
 
 BaseButton::BaseButton() {
 	set_focus_mode(FOCUS_ALL);
-	set_cursor_shape(CURSOR_POINTING_HAND);
+	set_default_cursor_shape(CURSOR_POINTING_HAND);
 }
 
 BaseButton::~BaseButton() {
